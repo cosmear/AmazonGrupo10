@@ -1,9 +1,14 @@
-Descrripcion: vamos a hacer un Market Place que venda productos de tecnologia, especialmente marca Apple, apuntando a un publico que promedie los 30 años.
+Descrripcion: vamos a hacer un Market Place que venda aceites de oliva principalmente, entre otros productos regionales. La idea seria encarar a un publico que le guste o se dedique a cocinar e incentivarlos a utilizar nuestros productos.
 
 mi nombre es Fabricio Godoy, tengo 25 años y estoy bastante entusiasmado con el proyecto integrador!
 
 REFERENCIAS: 
-1) https://www.apple.com/store -- la pagina oficial de apple nos gusto porque presenta un diseño bastante didactico, cosas simples bien hechas.
-2) https://www.macstation.com.ar/ -- esta pagina que revende articulos Mac, nos gusto porque cumple a simple vista con todos los requisitos que detallan en el Playground (Header, Cuerpo, Footer)
-3) https://www.samsung.com/ar/ -- la pagina oficial de Samsung arg, nos gusto porque similar a la pagina de apple, presenta todo de manera muy simple. El ultimo o mejor producto primero de manera llamativa con ofertas y descuentos. 
+1) https://www.mondoliva.com/ -- esta pagina me parece muy buena, ya que cumple con los principios basicos de la estuctura de manera simple y didactica.
 
+2) https://www.zuelo.com.ar/ -- esta pagina, personalmente, me llamo la atencion ya que solo muestra una imagen de los productos mas recientes disponibles, y contactos directo a sus redes sociales. Bastante simple, pero no respeta la estructura basica del armado de una pagina web
+
+3) https://www.oliovita.com/ -- esta pagina me gusto porque en su HOME tiene de manera muy completo lo que se necesita. Un banner grande con los ultimos productos, ofertas. Una breve resena de quienes son y tambien ofrece un espacio para escribir y contactarse de manera directa con ellos 
+
+4) https://www.apple.com/store -- la pagina oficial de apple nos gusto porque presenta un diseño bastante didactico, cosas simples bien hechas. Con ese mismo contenido visual, se puede adaptar a la venta de cualquier tipo de productos.
+
+5) https://www.samsung.com/ar/ -- la pagina oficial de Samsung arg, nos gusto porque similar a la pagina de apple, presenta todo de manera muy simple. El ultimo o mejor producto primero de manera llamativa con ofertas y descuentos.
