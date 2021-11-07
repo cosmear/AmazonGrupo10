@@ -1,6 +1,8 @@
 Descrripcion: vamos a hacer un Market Place que venda aceites de oliva principalmente, entre otros productos regionales. La idea seria encarar a un publico que le guste o se dedique a cocinar e incentivarlos a utilizar nuestros productos.
 
-mi nombre es Fabricio Godoy, tengo 25 años y estoy bastante entusiasmado con el proyecto integrador!
+Mi nombre es Fabricio Godoy, tengo 25 años y estoy bastante entusiasmado con el proyecto integrador!
+
+Mi nombre es Cosme Argerich, tengo 18 años y estoy haciendo el cbc para ing informatica y tambien estoy muy entusiamado con el proyecto!
 
 REFERENCIAS: 
 1) https://www.mondoliva.com/ -- esta pagina me parece muy buena, ya que cumple con los principios basicos de la estuctura de manera simple y didactica.
