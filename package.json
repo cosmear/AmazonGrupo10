@@ -1,0 +1,23 @@
+{
+  "name": "amazongrupo10",
+  "version": "1.0.0",
+  "description": "Descrripcion: vamos a hacer un Market Place que venda aceites de oliva principalmente, entre otros productos regionales. La idea seria encarar a un publico que le guste o se dedique a cocinar e incentivarlos a utilizar nuestros productos.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosmear/AmazonGrupo10.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cosmear/AmazonGrupo10/issues"
+  },
+  "homepage": "https://github.com/cosmear/AmazonGrupo10#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
