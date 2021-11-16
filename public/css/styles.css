@@ -10,29 +10,25 @@ header {
 
 .top-bar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
 }
 .logo {
-  width: 50%;
+  width: 60%;
   max-width: 120px;
 }
 .logoPpal {
-  justify-content:space-between;
+  justify-content: space-between;
   margin: 0;
   border-radius: 5px;
-  max-width: 70px;
-  max-height: 70px;
+  max-width: 90px;
+  max-height: 990px;
 }
 .nav-bar-busqueda input {
   width: 45vw;
-  
 }
-.nav-bar-busqueda{
-    display: flex;
-    justify-content: flex-end;
-}
+
 nav ul {
   display: flex;
   list-style: none;
@@ -42,4 +38,12 @@ nav ul li a i {
   color: #7a7639;
   padding: 0.3em;
   margin: 0.2em;
+}
+.bannerOfertas{
+  display: flex;
+}
+.topBanner{
+  margin: center;
+  width:100vw;
+  max-height: 20vh;
 }
