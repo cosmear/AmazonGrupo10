@@ -8,6 +8,10 @@ header {
   height: 10vh;
   padding: 10px 15px;
   background-color: #eccc6e;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
 }
 
 .top-bar {
@@ -15,11 +19,10 @@ header {
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
-
 }
 .logo {
   width: 60%;
-  
+
   max-width: 8vh;
 }
 .logoPpal {
@@ -31,6 +34,9 @@ header {
 }
 .nav-bar-busqueda input {
   width: 45vw;
+  border-radius: 15px;
+  border: none;
+  margin-bottom: 10px;
 }
 
 nav ul {
@@ -39,35 +45,78 @@ nav ul {
   text-decoration: none;
 }
 nav ul li a i {
-
   color: #7a7639;
   padding: 0.3em;
   margin: 0.2em;
 }
-.banner{
+.banner {
   width: auto;
   height: 100px;
-  margin: auto; 
+  margin: auto;
   background-size: 100% 100%;
-  
+  margin-top: 60px;
+  padding: 100;
+
+
   animation: banner 20s infinite;
-  animation-direction:alternate;
+  animation-direction: alternate;
 }
 
 @keyframes banner {
-  0%, 20%{
-    background-image: url(/images/fondos/banner.jpg);
+  0%,
+  20% {
+    background-image: url(/images/logos/banner-amazon.png);
+    opacity: 1;
   }
-  20%, 40% {
+  21%,24%{
+    opacity: 0.5;
+  }
+  25%,
+  40% {
     background-image: url(/images/fondos/banner2.jpg);
+    opacity: 1;
   }
-  40%, 60%{
-    background-image: url(/images/fondos/banner3.jpg);
+  41%,44%{
+    opacity: 0.5;
   }
-  60%, 80% {
-    background-image: url(/images/fondos/banner4.jpg);
-  }
-  80%, 100% {
+  45%,
+  60% {
     background-image: url(/images/fondos/banner5.jpg);
+    opacity: 1;
+  }
+  61%,64%{
+    opacity: 0.5;
+  }
+  65%,
+  80% {
+    background-image: url(/images/fondos/banner3.jpg);
+    opacity: 1;
+  }
+  81%,84%{
+    opacity: 0.5;
+  }
+  85%,
+  100% {
+    background-image: url(/images/logos/banner-amazon.png);
+  }
+}
+@media (min-width: 1200px) {
+  header {
+    height: 13vh;
+  }
+  .logoPpal {
+    height: 10vh;
+  }
+  .top-bar {
+    font-size: 20px;
+  }
+  
+  .nav-bar-busqueda input {
+    width: 60vw;
+    height: 4vh;
+    font-size: 20px;
+  }
+  .banner{
+    margin-top: 80px;
   }
 }
