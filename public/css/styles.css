@@ -51,54 +51,47 @@ nav ul li a i {
 }
 .banner {
   width: auto;
-  height: 100px;
-  margin: auto;
+  height: 20vh;
+  margin: 20px;
   background-size: 100% 100%;
-  margin-top: 60px;
+  margin-top: 100px;
   padding: 100;
-
+  background-color:#eccc6e;
 
   animation: banner 20s infinite;
   animation-direction: alternate;
 }
+.productosPromo{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.producto{
+  
+}
+.imagen{
+  width: 15vw;
+  height: 35vh;
+}
+.infoProducto{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
 
 @keyframes banner {
+  
   0%,
-  20% {
+  50% {
     background-image: url(/images/logos/banner-amazon.png);
     opacity: 1;
   }
-  21%,24%{
-    opacity: 0.5;
-  }
-  25%,
-  40% {
-    background-image: url(/images/fondos/banner2.jpg);
-    opacity: 1;
-  }
-  41%,44%{
-    opacity: 0.5;
-  }
-  45%,
-  60% {
-    background-image: url(/images/fondos/banner5.jpg);
-    opacity: 1;
-  }
-  61%,64%{
-    opacity: 0.5;
-  }
-  65%,
-  80% {
-    background-image: url(/images/fondos/banner3.jpg);
-    opacity: 1;
-  }
-  81%,84%{
-    opacity: 0.5;
-  }
-  85%,
+  51%,
   100% {
-    background-image: url(/images/logos/banner-amazon.png);
-  }
+    background-image: url(/images/fondos/banner6.jpg);
+    opacity: 1;
+
+}
 }
 @media (min-width: 1200px) {
   header {
@@ -117,6 +110,8 @@ nav ul li a i {
     font-size: 20px;
   }
   .banner{
-    margin-top: 80px;
+    margin-top: 120px;
+    max-width: 100vw; 
+    
   }
 }
