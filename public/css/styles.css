@@ -3,9 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-  background-color: #ECCC6E;
-
+body {
+  background-color: #eccc6e;
 }
 header {
   height: 10vh;
@@ -24,7 +23,6 @@ header {
 }
 .logo {
   width: 60%;
-
   max-width: 10vh;
 }
 .logoPpal {
@@ -40,7 +38,6 @@ header {
   border: none;
   margin-bottom: 10px;
 }
-
 nav ul {
   display: flex;
   list-style: none;
@@ -58,13 +55,12 @@ nav ul li a i {
   background-size: 100% 100%;
   margin-top: 100px;
   padding: 100;
-  background-color:#eccc6e;
+  background-color: #eccc6e;
 
   animation: banner 20s infinite;
   animation-direction: alternate;
 }
 @keyframes banner {
-  
   0%,
   50% {
     background-image: url(/images/logos/banner-amazon.png);
@@ -74,54 +70,70 @@ nav ul li a i {
   100% {
     background-image: url(/images/logos/bannerDoliva.png);
     opacity: 1;
-    
   }
 }
-.productosDestacados{
+.productosDestacados {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   margin-top: 50px;
   margin-bottom: 50px;
 }
-.titulo{
-text-align:center;
-font-size: 30px;
-text-decoration: underline;
+.tituloPpal {
+  text-align: center;
+  font-size: 35px;
+  text-decoration: underline;
+  font-family: verdana, arial;
+  color: #7a7639;
+  margin: 0 5px;
+}
+.titulo {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+  font-family: verdana, arial;
+  background-color: #7a7639;
+  color: #eccc6e;
+  margin: 5px;
 }
 
-.subtitulo{
+.subtitulo {
   text-align: center;
   font-size: 20px;
+  background-color: #7a7639;
+  color: #eccc6e;
+  margin: 10px 5px;
 }
-.productosPromo{
+.productosPromo {
   display: flex;
-  flex-wrap:nowrap;
-  justify-content:space-between;
-  margin-top:25px;
-  border: 10px double  #7A7639;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 45px;
+  border: 10px double #7a7639;
   margin: 3px;
   padding: 5px;
   margin-top: 15px;
+  margin-bottom: 50px;
 }
-.producto{
+.producto {
   box-shadow: 5px 15px 20px rgb(100, 100, 100);
   border-radius: 10px;
   position: relative;
-  border: 5px solid #7A7639;
-  background-color: #7A7639;
+  border: 5px solid #7a7639;
+  background-color: #7a7639;
 }
-.imagen{
-  width: 15vw;
+.imagen {
+  width: 50vw;
   height: 45vh;
   margin: center;
-  padding:0;
+  padding: 0;
+  max-width: 175px;
 }
-.infoProducto{
+.infoProducto {
   display: block;
   justify-content: center;
   text-align: center;
-  color:  #ECCC6E;
+  color: #eccc6e;
 }
 .infoProducto i {
   display: block;
@@ -129,36 +141,35 @@ text-decoration: underline;
   padding: 5px;
   width: 35px;
   height: 35px;
-  border: 1px solid #7A7639;
-  background-color: #ECCC6E;
-  color: #7A7639;
+  border: 1px solid #7a7639;
+  background-color: #eccc6e;
+  color: #7a7639;
   border-radius: 50%;
   position: absolute;
   top: -15px;
-  text-align:center;
+  text-align: center;
   z-index: 9;
   transition: all 1000ms;
 }
-.producto:hover i{
+.producto:hover i {
   transform: rotateZ(-360deg);
 }
 .precio {
   font-weight: bold;
   font-size: 20px;
 }
-
-.promocion{
+.promocion {
   display: none;
   justify-content: center;
   align-items: center;
   opacity: 0;
   font-family: comic;
   font-size: 40px;
-  font-weight:bold;
+  font-weight: bold;
   padding: 15px;
   position: absolute;
-  background-color:#7A7639 ;
-  color: #ECCC6E;
+  background-color: #7a7639;
+  color: #eccc6e;
   width: 100%;
   height: 100%;
   bottom: 0;
@@ -167,8 +178,105 @@ text-decoration: underline;
   display: flex;
   opacity: 1;
 }
+.contenedorBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100vw;
+}
+.box {
+  border: 10px double #7a7639;
+  margin: 2em;
+  box-shadow: 5px 5px 5px #7a7639;
+}
+.box:hover {
+  box-shadow: 20px 15px 15px 10px #7a7639;
+}
+.box p {
+  font-size: 18px;
+}
+.box i {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color: #7a7639;
+}
+footer {
+  padding: auto;
+  position: absolute;
+  background-color: #7a7639;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contenedorFormularioContacto {
+  padding: 5px 10px;
+  border: 3px dashed #eccc6e;
+  width: 50%;
+}
+.formContactoInput {
+  font-size: 15px;
+  width: 48%;
+  padding: 8px;
+  position: relative;
+  box-shadow: 2px 2px 2px #7a7639;
+  border: none;
+  margin: 3px 0;
+  text-align: center;
+}
+.textarea {
+  font-size: 15px;
+  width: 98%;
+  padding: 8px;
+  box-shadow: 2px 2px 2px #7a7639;
+  border: 1px;
+  margin: 3px;
+  position: relative;
+  text-align: center;
+}
+.contactoPersonal {
+  display:block;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+}
+.boxFooter {
+  border: 10px double #eccc6e;
+  margin: 2em;
+  box-shadow: 5px 5px 5px #756535;
+  width: 90%;
+  justify-content:space-around;
 
-
+}
+.boxFooter i {
+  font-size: 20px;
+  color: #eccc6e;
+  display: flex;
+  justify-content: center;
+}
+.boxFooter p {
+  font-size: 18px;
+  text-align: center;
+}
+.boxFooter a {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.redesSociales {
+  display: flex;
+  align-items: flex-end;
+  justify-content:space-around;
+}
+.redesSociales i {
+  font-size: 30px;
+  color: #eccc6e;
+  margin: 3px;
+  right: 20px;
+}
 @media (min-width: 1200px) {
   header {
     height: 13vh;
@@ -179,15 +287,14 @@ text-decoration: underline;
   .top-bar {
     font-size: 20px;
   }
-  
+
   .nav-bar-busqueda input {
     width: 60vw;
     height: 4vh;
     font-size: 20px;
   }
-  .banner{
+  .banner {
     margin-top: 120px;
-    max-width: 100vw; 
-    
+    max-width: 100vw;
   }
 }
