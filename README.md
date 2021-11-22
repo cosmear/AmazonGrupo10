@@ -16,5 +16,5 @@ REFERENCIAS:
 5) https://www.samsung.com/ar/ -- la pagina oficial de Samsung arg, nos gusto porque similar a la pagina de apple, presenta todo de manera muy simple. El ultimo o mejor producto primero de manera llamativa con ofertas y descuentos.
 
 
-COLOR LETRAS LOGO #7A7639
-COLOR FONDO LOGO  #ECCC6E
+COLOR LETRAS LOGO #7A7639;
+COLOR FONDO LOGO  #ECCC6E;
