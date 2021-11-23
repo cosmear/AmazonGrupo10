@@ -7,6 +7,7 @@ app.use(express.static("public"));
 app.listen(port, () => {
   console.log(`escuchando en http://localhost:${port}`);
 });
+
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname + "/views/index.html"));
 });
@@ -21,4 +22,40 @@ app.get("/login", (req, res) => {
 
 app.get("/productCart", (req, res) => {
   res.sendFile(path.join(__dirname + "/views/productCart.html"));
+});
+
+app.get("/libanti500ml", (req, res) => {
+  res.sendFile(path.join(__dirname + "/views/libanti500ml.html"));
+});
+
+app.get("/elia500ml", (req, res) => {
+  res.sendFile(path.join(__dirname + "/views/elia500ml.html"));
+});
+
+app.get("/elia5lt", (req, res) => {
+  res.sendFile(path.join(__dirname + "/views/elia5lt.html"));
+});
+
+app.get("/elia3lt", (req, res) => {
+  res.sendFile(path.join(__dirname + "/views/elia3lt.html"));
+});
+
+app.get("/libanti1lt", (req, res) => {
+  res.sendFile(path.join(__dirname + "/views/libanti1lt.html"));
+});
+
+app.get("/libanti5lt", (req, res) => {
+  res.sendFile(path.join(__dirname + "/views/libanti5lt.html"));
+});
+
+app.get("/libanti3lt", (req, res) => {
+  res.sendFile(path.join(__dirname + "/views/libanti3lt.html"));
+});
+
+app.get("/aceitunasVerdes", (req, res) => {
+  res.sendFile(path.join(__dirname + "/views/aceitunasverdes.html"));
+});
+
+app.get("/aceitunasGriegas", (req, res) => {
+  res.sendFile(path.join(__dirname + "/views/aceitunasNegras.html"));
 });
