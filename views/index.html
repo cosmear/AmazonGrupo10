@@ -13,22 +13,28 @@
 <body>
     <header>
         <div class="top-bar">
-            <div class="logo">
-                <img src="/images/logos/logoPpal.png" class="logoPpal">
-            </div>
+            <a href="/">
+                <div class="logo">
+                    <img src="/images/logos/logoPpal.png" class="logoPpal">
+                </div>
+            </a>
             <section class="nav-bar-busqueda">
-                <input type="text" placeholder="  Buscar productos, marcas y más...">
-
+                <input type="search" placeholder="  Buscar productos, marcas y más...">
             </section>
             <nav>
                 <ul>
                     <li class="logoUsuario">
-                        <a href="#">
+                        <a href="/login">
+                            <i class="fas fa-sign-in-alt"></i>
+                        </a>
+                    </li>
+                    <li class="logoUsuario">
+                        <a href="/register">
                             <i class="fas fa-user"></i>
                         </a>
                     </li>
                     <li class="logoCarrito">
-                        <a href="#">
+                        <a href="/productCart">
                             <i class="fas fa-shopping-cart"></i>
                         </a>
                     </li>
@@ -185,14 +191,15 @@
     </main>
     <footer>
         <form action="#" method="post" class="contenedorFormularioContacto">
-                <input type="text" name="nombreYApellido" class="formContactoInput" placeholder="Nombre y apellido" required>
-                <input type="email" name="Email" class="formContactoInput" placeholder="e-mail" required>
-                <br>
-                <input type="number" name="telefono" class="formContactoInput" placeholder="Telefono de contacto">
-                <input type="text" name="lugar" class="formContactoInput" placeholder="De donde nos contactas?">
-                <br>
-                <textarea class="textarea" name="comentario" id='comentario'
-                    placeholder="Cual es tu mensaje?"></textarea>
+            <input type="text" name="nombreYApellido" class="formContactoInput" placeholder="Nombre y apellido"
+                required>
+            <input type="email" name="Email" class="formContactoInput" placeholder="e-mail" required>
+            <br>
+            <input type="number" name="telefono" class="formContactoInput" placeholder="Telefono de contacto">
+            <input type="text" name="lugar" class="formContactoInput" placeholder="De donde nos contactas?">
+            <br>
+            <textarea class="textarea" name="comentario" id='comentario' placeholder="Cual es tu mensaje?"></textarea>
+            <button type="submit" class="botonFormUsuario">Enviar</button>
         </form>
         <section class='contactoPersonal'>
             <div class="boxFooter">
@@ -204,26 +211,27 @@
                 <i class="fas fa-map-marker-alt"></i>
                 <p> Nos encontramos en Calle Falsa 123</p>
             </div>
-        
-        <div class="redesSociales">
-            <nav class='logoRS'>
-                <a href="https://www.facebook.com/Doliva.bsas">
-                    <i class="fab fa-facebook"></i>
-                </a>
-            </nav>
-            <nav class='logoRS'>
-                <a href="https://www.instagram.com/doliva.bsas/">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </nav>
-            <nav class='logoRS'>
-                <a href="Https://wa.me/541166625790">
-                    <i class="fab fa-whatsapp"></i>
-                </a>
-            </nav>
-            
-        </div>
-    </section>
+
+            <div class="redesSociales">
+                <nav class='logoRS'>
+                    <a href="https://www.facebook.com/Doliva.bsas">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </nav>
+                <nav class='logoRS'>
+                    <a href="https://www.instagram.com/doliva.bsas/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </nav>
+                <nav class='logoRS'>
+                    <a href="Https://wa.me/541166625790">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </nav>
+
+            </div>
+        </section>
+
     </footer>
 
 </body>
