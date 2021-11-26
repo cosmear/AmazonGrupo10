@@ -72,6 +72,9 @@ nav ul li a i {
     opacity: 1;
   }
 }
+a{
+  text-decoration: none;
+}
 .productosDestacados {
   display: flex;
   flex-wrap: wrap;
