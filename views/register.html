@@ -5,14 +5,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/7213ba6fdf.js" crossorigin="anonymous"></script>
-        <title>Iniciar sesión</title>
+        <title> Crear sesión</title>
         <link href="/css/styles.css" rel="stylesheet">
     </head>
     <body>
      <div class="cointeiner">
      <h3 class="title">Crea tu cuenta</h3>
+     <div class="cuestionariosLogin">
      <form action="resultado.html" method="POST">
-        <p>
+        <form>
             <label>Nombre y Apellido:</label>
             <input type="text" name="usuario">
         </p>
@@ -21,7 +22,16 @@
             <input type="email" name="email">
         </p>
         <p>
-           <button type="submit">Enviar</button>
+            <label>contraseña:</label>
+            <input type="password" name="contraseña">
+        </p>
+        <p>
+            <label>Confirmar Contraseña:</label>
+            <input type="password" name="confirmacion de contraseña">
+        </p>
+    </div>
+        <p>
+           <button type="submit">Crear cuenta</button>
         </p>
     </div>
     </form>
