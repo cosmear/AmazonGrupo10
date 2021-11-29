@@ -121,7 +121,6 @@ a{
   box-shadow: 5px 15px 20px rgb(100, 100, 100);
   border-radius: 10px;
   position: relative;
-  border: 5px solid #7a7639;
   background-color: #7a7639;
   margin: 5px;
 }
@@ -250,7 +249,7 @@ footer {
   width: 100vw;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 
 }
 .contenedorFormularioContacto {
