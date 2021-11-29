@@ -8,65 +8,30 @@
         <title> Crear sesión</title>
         <link href="/css/styles.css" rel="stylesheet">
     </head>
-    <body >
-     <div class="cointeiner">
-     <h3 class="title">Crea tu cuenta</h3>
-     <div class="cuestionariosLogin">
-     <form action="resultado.html" method="POST">
-        <form>
-            <label>Nombre y Apellido:</label>
-            <input type="text" name="usuario">
-        </p>
-        <p>
-            <label>Correo Electronico:</label>
-            <input type="email" name="email">
-        </p>
-        <p>
-            <label>contraseña:</label>
-            <input type="password" name="contraseña">
-        </p>
-        <p>
-            <label>Confirmar Contraseña:</label>
-            <input type="password" name="confirmacionDeContraseña">
-        </p>
-
-
-
-    <div class="recordarUsuario">
-        <input type="radio" name="recordar" value="true">
-        <h5>Recordarme</h5>
-
-
-
-        <p>
-           <button type="submit">Crear cuenta</button>
-        </p>
-        <div class="botonDeGoogle">
-            <button type="submit">Continuar con Google</button>
-
-
-    </div>
-    </form>
-    </body>
-    <footer>
-        <div class="redesSociales">
-            <nav class='logoRS'>
-                <a href="https://www.facebook.com/Doliva.bsas">
-                    <i class="fab fa-facebook"></i>
-                </a>
-            </nav>
-            <nav class='logoRS'>
-                <a href="https://www.instagram.com/doliva.bsas/">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </nav>
-            <nav class='logoRS'>
-                <a href="Https://wa.me/541166625790">
-                    <i class="fab fa-whatsapp"></i>
-                </a>
-            </nav>
-
+<body id="cuerpoRegistroLogin">
+    <div class="divGrande">
+        <div class="cointeiner">
+            <div class="cointeiner-head"></div>
+            <div class="cointeiner-body">
+                <h2 class="title">Crear una cuenta</h2>
+                <form method="POST">
+                    <div class="cuestionarios-grupo">
+                        <input class="cuestionario espacio" type="text" placeholder="Nombre y apellido" name="name">
+                        <input class="cuestionario espacio" type="email" placeholder="Correo Electronico" name="email">
+                        <input class="cuestionario espacio" type="password" placeholder="Contraseña" name="Contraseña">
+                        <input class="cuestionario espacio" type="password" placeholder="Confirmar contraseña" name="Contraseña">
+                        <div class="recordarme masEspacio">
+                        <input class="recordar" type="radio" placeholder=" Confirmar contraseña" name="recordar" value="true">
+                        <p>Recordarme</p>
+                        </div>
+                        <div class="boton">
+                            <button class="botonenviar" type="submit">Enviar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
-    </footer>
-    </html>
-
+    </div>
+</body>
+  </html>
+  <!-- end document-->
