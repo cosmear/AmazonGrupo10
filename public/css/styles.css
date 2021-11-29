@@ -384,7 +384,7 @@ h4{
   min-height: 100vh;
   max-width: 960px;
   display: flex;
- ;
+ position: relative;
 
 }
 .cointeiner{
@@ -404,16 +404,18 @@ h4{
  margin-top: 6cm ;
  margin-left: auto;
  margin-right: auto;
-
+position: relative;
 }
 .cointeiner-head{
   width: 29.1%;
   display: table-cell;
+  ;
 }
 .cointeiner-body{
   display: table-cell;
   padding: 80px 0px;
   padding-bottom: 88px;
+  ;
 }
 input {
   outline: none;
@@ -425,6 +427,7 @@ input {
   width: 75%;
   font-size: 14px;
   font-family: inherit;
+  position: relative;
 }
 .cuestionarios-grupo{
   position: relative;
@@ -437,8 +440,8 @@ input {
   color: #666;
   font-size: 16px;
   font-weight: 500;
-  border-bottom: 1px solid #a7a3a3
-   ;
+  border-bottom: 1px solid #a7a3a3;
+  position: relative ;
 }
 .recordarme{
   display: flex;
