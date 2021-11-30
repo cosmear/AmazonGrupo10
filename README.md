@@ -4,9 +4,13 @@ Mi nombre es Fabricio Godoy, tengo 25 años y estoy bastante entusiasmado con el
 
 Mi nombre es Cosme Argerich, tengo 18 años y estoy haciendo el cbc para ing informatica y tambien estoy muy entusiamado con el proyecto!
 
+<<<<<<< HEAD
 Mi nombre es Raquel Dominguez, tengo 46 años y soy Contadora Pública especializada en auditoría y quiero aprender Java Script y mas sobre seguridad informática.
 
 REFERENCIAS: 
+=======
+REFERENCIAS:
+>>>>>>> 57f52969af4d58941203387008bfce30d25b553d
 1) https://www.mondoliva.com/ -- esta pagina me parece muy buena, ya que cumple con los principios basicos de la estuctura de manera simple y didactica.
 
 2) https://www.zuelo.com.ar/ -- esta pagina, personalmente, me llamo la atencion ya que solo muestra una imagen de los productos mas recientes disponibles, y contactos directo a sus redes sociales. Bastante simple, pero no respeta la estructura basica del armado de una pagina web
@@ -17,6 +21,8 @@ REFERENCIAS:
 
 5) https://www.samsung.com/ar/ -- la pagina oficial de Samsung arg, nos gusto porque similar a la pagina de apple, presenta todo de manera muy simple. El ultimo o mejor producto primero de manera llamativa con ofertas y descuentos.
 
+
+Link de trello: https://trello.com/b/H41EjDJ3/amazon
 
 COLOR LETRAS LOGO #7A7639;
 COLOR FONDO LOGO  #ECCC6E;
