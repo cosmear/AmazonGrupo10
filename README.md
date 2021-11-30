@@ -7,7 +7,7 @@ Mi nombre es Cosme Argerich, tengo 18 años y estoy haciendo el cbc para ing inf
 <<<<<<< HEAD
 Mi nombre es Raquel Dominguez, tengo 46 años y soy Contadora Pública especializada en auditoría y quiero aprender Java Script y mas sobre seguridad informática.
 
-REFERENCIAS: 
+REFERENCIAS:
 =======
 REFERENCIAS:
 >>>>>>> 57f52969af4d58941203387008bfce30d25b553d
