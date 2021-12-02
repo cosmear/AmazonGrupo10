@@ -1,5 +1,5 @@
 const path = require("path");
-const controller = {
+const controller = {    
     aceitunasgriegas : (req, res) => {
         res.render('aceitunasnegras');
     },
@@ -16,7 +16,7 @@ const controller = {
         res.render('elia500ml');
     },
     libanti5lt : (req, res) => {
-        res.renderr('libanti5lt');
+        res.render('libanti5lt');
     },
     libanti3lt : (req, res) => {
         res.render('libanti3lt');
