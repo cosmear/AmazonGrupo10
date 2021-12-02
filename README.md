@@ -4,8 +4,12 @@ Mi nombre es Fabricio Godoy, tengo 25 años y estoy bastante entusiasmado con el
 
 Mi nombre es Cosme Argerich, tengo 18 años y estoy haciendo el cbc para ing informatica y tambien estoy muy entusiamado con el proyecto!
 
-<<<<<<< HEAD
+Mi nombre es Vanessa Gomez, tengo 33 años son consultora de proyectos y aun sigo muy motivada en aprender con el proyecto integrador.
+
 Mi nombre es Raquel Dominguez, tengo 46 años y soy Contadora Pública especializada en auditoría y quiero aprender Java Script y mas sobre seguridad informática.
+
+<<<<<<< HEAD
+
 
 REFERENCIAS:
 =======
