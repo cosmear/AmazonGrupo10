@@ -52,7 +52,7 @@ app.get("/libanti3lt", (req, res) => {
 });
 
 app.get("/aceitunasVerdes", (req, res) => {
-  res.sendFile(path.join(__dirname + "/views/aceitunasverdes.html"));
+  res.sendFile(path.join(__dirname + "/views/aceitunasVerdes.html"));
 });
 
 app.get("/aceitunasGriegas", (req, res) => {
