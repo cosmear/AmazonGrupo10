@@ -8,13 +8,7 @@ Mi nombre es Vanessa Gomez, tengo 33 años son consultora de proyectos y aun sig
 
 Mi nombre es Raquel Dominguez, tengo 46 años y soy Contadora Pública especializada en auditoría y quiero aprender Java Script y mas sobre seguridad informática.
 
-<<<<<<< HEAD
-
-
 REFERENCIAS:
-=======
-REFERENCIAS:
->>>>>>> 57f52969af4d58941203387008bfce30d25b553d
 1) https://www.mondoliva.com/ -- esta pagina me parece muy buena, ya que cumple con los principios basicos de la estuctura de manera simple y didactica.
 
 2) https://www.zuelo.com.ar/ -- esta pagina, personalmente, me llamo la atencion ya que solo muestra una imagen de los productos mas recientes disponibles, y contactos directo a sus redes sociales. Bastante simple, pero no respeta la estructura basica del armado de una pagina web
