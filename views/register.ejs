@@ -1,40 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://kit.fontawesome.com/7213ba6fdf.js" crossorigin="anonymous"></script>
-        <title> log in</title>
-        <link href="/css/styles.css" rel="stylesheet">
-    </head>
-    <header>
-        <div class="top-bar">
-            <a href="/">
-                <div class="logo">
-                    <img src="/images/logos/logoPpal.png" class="logoPpal">
-                </div>
-            </a>
-        </div>
-    </header>
-<body id="cuerpoRegistroLogin">
-    <div class="divGrande wrapper">
-        <div class="cointeiner">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/7213ba6fdf.js" crossorigin="anonymous"></script>
+    <title> Crear sesión</title>
+    <link href="/css/styles.css" rel="stylesheet">
+</head>
+<header>
+    <div class="top-bar">
+        <a href="/">
+            <div class="logo">
+                <img src="/images/logos/logoPpal.png" class="logoPpal">
+            </div>
+        </a>
+    </div>
+</header>
+
+<body >
+    <div class="cuerpoRegistroLogin">
+        <div class="divGrande">
+            <div class="cointeiner">
             <div class="cointeiner-head"></div>
             <div class="cointeiner-body">
-                <h2 class="title">Iniciar sesion</h2>
+                <h2 class="title">Crear una cuenta</h2>
                 <form method="POST">
                     <div class="cuestionarios-grupo">
+                        <input class="cuestionario espacio" type="text" placeholder="Nombre y apellido" name="name">
                         <input class="cuestionario espacio" type="email" placeholder="Correo Electronico" name="email">
                         <input class="cuestionario espacio" type="password" placeholder="Contraseña" name="Contraseña">
-                            <div class="recordarme masEspacio">
-                                <input class="recordar" type="checkbox" placeholder=" Confirmar contraseña" name="recordar" value="true">
-                                <p>Recordarme</p>
-                            </div>
-                         <div class="boton">
+                        <input class="cuestionario espacio" type="password" placeholder="Confirmar contraseña"
+                            name="Contraseña">
+                        <div class="recordarme masEspacio">
+                            <input class="recordar" type="checkbox" name="recordar" value="true">
+                            <p>Recordarme</p>
+                        </div>
+                        <div class="boton">
                             <button class="botonenviar" type="submit">Enviar</button>
                         </div>
                     </div>
+                </div>
                 </form>
                 <footer class="footerRegistroLogin">
 
@@ -65,4 +72,5 @@
         </div>
     </div>
 </body>
-  </html>
+
+</html>

@@ -16,3 +16,7 @@ Falta de comunicación o coordinación
 
 5. Dejar de hacer:
 Atrasarnos en los sprints
+
+
+
+
