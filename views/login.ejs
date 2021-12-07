@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
     <%- include('./partials/head') %>
-   
+
 <body>
     <%- include('./partials/header') %>
-    <div class="cuerpoRegistroLogin">
-        <div class="divGrande wrapper">
-        <div class="cointeiner">
-            <div class="cointeiner-head"></div>
-            <div class="cointeiner-body">
-                <h2 class="title">Iniciar sesion</h2>
+    <div class="cuerpoRegistroLogin envolturaPagina">
+        <div class="envoltura1 envoltura2 ">
+        <div class="conteiner1 conteiner2">
+            <div class="conteinerHead"></div>
+            <div class="conteinerBody">
+                <h2 class="tituloRegistro">Iniciar sesion</h2>
                 <form method="POST">
                     <div class="cuestionarios-grupo">
                         <input class="cuestionario espacio" type="email" placeholder="Correo Electronico" name="email">
                         <input class="cuestionario espacio" type="password" placeholder="Contraseña" name="Contraseña">
-                            <div class="recordarme masEspacio">
-                                <input class="recordar" type="checkbox" placeholder=" Confirmar contraseña" name="recordar" value="true">
-                                <p>Recordarme</p>
-                            </div>
-                         <div class="boton">
+                        <div class="recordarme masEspacio">
+                            <div class="recordarOrder">
+                             <p id="recordar">Recordarme</p>
+                             <input id="recordar" type="checkbox" name="recordar" value="true">
+                              </div>
+                         </div>
+                         <div class="boton botonRadio botonColor">
                             <button class="botonenviar" type="submit">Enviar</button>
                         </div>
                     </div>

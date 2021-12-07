@@ -12,10 +12,8 @@
                     <h2 class="tituloRegistro">Crear una cuenta</h2>
                     <form method="POST">
                         <div class="cuestionarios-grupo">
-                            <div class="liniaGris">
                                 <input class="cuestionario espacio" type="text" placeholder="Nombre y apellido"
                                     name="name">
-                            </div>
                             <input class="cuestionario espacio" type="email" placeholder="Correo Electronico"
                                 name="email">
                             <input class="cuestionario espacio" type="password" placeholder="Contraseña"
@@ -23,12 +21,14 @@
                             <input class="cuestionario espacio" type="password" placeholder="Confirmar contraseña"
                                 name="Contraseña">
                             <div class="recordarme masEspacio">
-                                <input class="recordar" type="checkbox" name="recordar" value="true">
-                                <p>Recordarme</p>
+                               <div class="recordarOrder">
+                                <p id="recordar">Recordarme</p>
+                                <input id="recordar" type="checkbox" name="recordar" value="true">
+                                 </div>
                             </div>
-                            <div class="boton botonRadio botonColor">
+                                  <div class="boton botonRadio botonColor">
                                 <button class="botonenviar" type="submit">Enviar</button>
-                            </div>
+                                 </div>
                         </div>
                 </div>
                 </form>

@@ -596,7 +596,7 @@ background: #504b0d
 .cuestionarios-grupo{
   position: relative;
   margin-bottom: 32px;
-  
+
 }
 .cuestionario{
   padding: 9px 0;
@@ -621,10 +621,10 @@ input {
 }
 .recordarme{
   display: flex;
-
 }
-
-
+.recordarTexto{
+  flex-grow: 0;
+}
 
 .boton{line-height: 40px;
   display: inline-block;
