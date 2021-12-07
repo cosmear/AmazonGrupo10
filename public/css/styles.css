@@ -401,16 +401,15 @@ h4{
   border-radius: 10px;
   width: 50%;
   display: flex;
- margin-top: 6cm ;
- margin-left: auto;
- margin-right: auto;
-position: relative;
+  padding: 80px 90px;
+  padding-bottom: 88px
+
 }
-.cointeiner-head{
+/*.cointeiner-head{
   width: 29.1%;
   display: table-cell;
   ;
-}
+}*/
 .cointeiner-body{
   display: table-cell;
   padding: 80px 0px;
@@ -442,6 +441,7 @@ input {
   font-weight: 500;
   border-bottom: 1px solid #a7a3a3;
   position: relative ;
+  display: flex;
 }
 .recordarme{
   display: flex;
@@ -511,4 +511,7 @@ background: #504b0d
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
+}
+.wrapper {
+  min-height: 100vh;
 }
