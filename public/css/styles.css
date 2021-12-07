@@ -373,6 +373,7 @@ h4{
     max-width: 100vw;
   }
 }
+/*
 .cuerpoRegistroLogin{
   min-height: 100vh;
   padding-top: 180px;
@@ -405,12 +406,12 @@ h4{
   margin-right: auto;
   position: relative;
 }
-/*.cointeiner-head{
+.cointeiner-head{
   width: 29.1%;
   display: table-cell;
   ;
-}*/
-.cointeiner-body{
+}
+ .cointeiner-body{
   display: table-cell;
   padding: 80px 0px;
   padding-bottom: 88px;
@@ -430,7 +431,7 @@ input {
 }
 .cuestionarios-grupo{
   position: relative;
-  margin-bottom: 32px;
+  margin: auto;
 
   ;
 }
@@ -442,7 +443,7 @@ input {
   border-bottom: 1px solid #a7a3a3;
   position: relative ;
   display: flex;
-  position: relative ;
+
 }
 .recordarme{
   display: flex;
@@ -515,4 +516,142 @@ background: #504b0d
 }
 .wrapper {
   min-height: 100vh;
+}
+*/
+.footerRegistroLogin{
+  padding: auto;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contactoRegistroLogin{
+  display:block;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.envolturaPagina{
+  min-height: 100vh;
+}
+.cuerpoRegistroLogin{
+  padding-top: 180px;
+  padding-bottom: 100px;
+  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+}
+.envoltura1{margin: 0 auto;
+}
+.envoltura2{
+  max-width: 960px
+}
+.conteiner1{
+  overflow: hidden;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  background: #fff;
+}
+.conteiner2{
+  -webkit-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  width: 100%;
+  display: table;
+}
+.conteiner2 .conteinerHead{
+  background: url("/images/logos/logoPpal.png") top left/cover no-repeat;
+
+  width: 29.1%;
+  display: table-cell;
+}
+@media (max-width: 767px) {
+  .conteiner2 {
+    display: block;
+  }
+  .conteiner2 .conteinerHead {
+    width: 100%;
+    display: block;
+    padding-top: 300px;
+    background-position: left center;
+  }
+  .conteiner2 .conteinerBody {
+    display: block;
+    padding: 60px 50px;
+  }
+}
+.conteiner2 .conteinerBody{display: table-cell;
+  padding: 80px 90px;
+  padding-bottom: 88px;
+}}
+.tituloRegistro{
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 37px;
+}
+.cuestionarios-grupo{
+  position: relative;
+  margin-bottom: 32px;
+  
+}
+.cuestionario{
+  padding: 9px 0;
+  color: #666;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 1px solid #e5e5e5;
+}
+input {
+  outline: none;
+  margin: 0;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 14px;
+  font-family: inherit;
+}
+.masEspacio{
+  padding-top: 10px;
+}
+.recordarme{
+  display: flex;
+
+}
+
+
+
+.boton{line-height: 40px;
+  display: inline-block;
+  padding: 0 25px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Roboto", "Arial", "Helvetica Neue", sans-serif;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  font-size: 14px;
+  font-weight: 700;
+}
+.botonRadio{
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.botonColor{
+ background: #7A7639;
+}
+.botonColor:hover{
+  background: #3f3c11;
+}
+button {
+  outline: none;
+  background: none;
+  border: none;
 }
