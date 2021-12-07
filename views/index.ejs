@@ -1,215 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/7213ba6fdf.js" crossorigin="anonymous"></script>
-    <title>Amazon ACEITES DE OLIVA</title>
-    <link href="/css/styles.css" rel="stylesheet">
-</head>
+<%- include('./partials/head') %>
 
-<body>
-    <header>
-        <div class="top-bar">
-            <a href="/">
-                <div class="logo">
-                    <img src="/images/logos/logoPpal.png" class="logoPpal">
-                </div>
-            </a>
-            <section class="nav-bar-busqueda">
-                <input type="search" placeholder="  Buscar productos, marcas y más...">
-            </section>
-            <nav>
-                <ul>
-                    <li class="logoUsuario">
-                        <a href="/login">
-                            <i class="fas fa-sign-in-alt"></i>
-                        </a>
-                    </li>
-                    <li class="logoUsuario">
-                        <a href="/register">
-                            <i class="fas fa-user"></i>
-                        </a>
-                    </li>
-                    <li class="logoCarrito">
-                        <a href="/productCart">
-                            <i class="fas fa-shopping-cart"></i>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main class="contenedor">
-        <section>
-            <div class='banner'>
-            </div>
-        </section>
-        <h2 class='titulo'>Aceite de oliva, aceitunas y aceto.</h2>
-        <h3 class='subtitulo'>Destacados del mes: </h3>
-        <Section class='productosDestacados'>
-            <article class="producto">
-                <a href="/libanti500ml">
-                    <img src='/images/productos/libanti500.jpg' class='imagen'>
-                    <div class='infoProducto'>
-                        <i class="fas fa-cart-plus"></i>
-                        <section class='infoPrecio'>
-                            <p class='precio'> $800 </p>
-                        </section>
-                        <section class='descripcion'>
-                            <h3> Libanti - 500ml. </h3>
-                        </section>
+    <body>
+        <%- include('./partials/headerIndex') %>
+            <main class="contenedor">
+                <section>
+                    <div class='banner'>
                     </div>
-                </a>
-            </article>
-            <article class="producto">
-                <a href='/aceitunasgriegas'>
-                    <img src='/images/productos/aceitunasNegrasRDV.jpg' class='imagen'>
-                    <div class='infoProducto'>
-                        <i class="fas fa-cart-plus"></i>
-                        <section class='infoPrecio'>
-                            <p class='precio'> $800 </p>
-                        </section>
-                        <section class='descripcion'>
-                            <h3> Negras tipo GRIEGAS </h3>
-                        </section>
-                    </div>
-                </a>
-            </article>
-            <article class="producto">
-                <a href='/aceitunasverdes'>
-                    <img src='/images/productos/aceitunasVerdesRDV.jpg' class='imagen'>
-                    <div class='infoProducto'>
-                        <i class="fas fa-cart-plus"></i>
-                        <section class='infoPrecio'>
-                            <p class='precio'> $750 </p>
-                        </section>
-                        <section class='descripcion'>
-                            <h3> Arauco en salmuera </h3>
-                        </section>
-                    </div>
-                </a>
-            </article>
-            <article class="producto">
-                <a href="/elia500ml">
-                    <img src='/images/productos/elia500.jpg' class='imagen'>
-                    <div class='infoProducto'>
-                        <i class="fas fa-cart-plus"></i>
-                        <section class='infoPrecio'>
-                            <p class='precio'> $750 </p>
-                        </section>
-                        <section class='descripcion'>
-                            <h3> Eliá - 500ml. </h3>
-                        </section>
-                    </div>
-                </a>
-            </article>
-        </Section>
-        <br>
-        <h2 class='titulo'> APROVECHA NUESTROS DESCUENTOS!!</h2>
-        <h3 class='subtitulo'> Que no falte en tu mesa. </h3>
-        <section class='productosPromo'>
-            <article class="producto">
-                <a href="/libanti1lt">
-                    <img src='/images/productos/libanti1lt.jpg' class='imagen'>
-                    <div class='infoProducto'>
-                        <i class="fas fa-cart-plus"></i>
-                        <section class='infoPrecio'>
-                            <p class='precio'> $900 </p>
-                            <p class='promocion'> 15% Off </p>
-                        </section>
-                        <section class='descripcion'>
-                            <h3> Libanti - 1Lt. </h3>
-                        </section>
-                    </div>
-                </a>
-            </article>
-            <article class="producto">
-                <a href='/libanti5lt'>
-                    <img src='/images/productos/libanti5lt.jpg' class='imagen'>
-                    <div class='infoProducto'>
-                        <i class="fas fa-cart-plus"></i>
-                        <section class='infoPrecio'>
-                            <p class='precio'> $4.150 </p>
-                            <p class='promocion'> 10% Off </p>
-                        </section>
-                        <section class='descripcion'>
-                            <h3> Libanti - 5Lt. </h3>
-                        </section>
-                    </div>
-                </a>
-            </article>
-            <article class="producto">
-                <a href='/elia3lt'>
-                    <img src='/images/productos/elia3lt.jpg' class='imagen'>
-                    <div class='infoProducto'>
-                        <i class="fas fa-cart-plus"></i>
-                        <section class='infoPrecio'>
-                            <p class='precio'> $3.000 </p>
-                            <p class='promocion'> 10% Off </p>
-                        </section>
-                        <section class='descripcion'>
-                            <h3> Eliá - 3Lt. </h3>
-                        </section>
-                    </div>
-                </a>
-            </article>
-            <article class="producto">
-                <a href='/elia5lt'>
-                    <img src='/images/productos/elia5lt.jpg' class='imagen'>
-                    <div class='infoProducto'>
-                        <i class="fas fa-cart-plus"></i>
-                        <section class='infoPrecio'>
-                            <p class='precio'> $4.900 </p>
-                            <p class='promocion'> 10% Off </p>
-                        </section>
-                        <section class='descripcion'>
-                            <h3> Eliá - 5Lt. </h3>
-                        </section>
-                    </div>
-                </a>
-            </article>
-            <article class="producto">
-                <a href='/libanti3Lt'>
-                    <img src='/images/productos/libanti3lt.jpeg' class='imagen'>
-                    <div class='infoProducto'>
-                        <i class="fas fa-cart-plus"></i>
-                        <section class='infoPrecio'>
-                            <p class='precio'> $2.600 </p>
-                            <p class='promocion'> 15% Off </p>
-                        </section>
-                        <section class='descripcion'>
-                            <h3> Libanti - 3Lt. </h3>
-                        </section>
-                    </div>
-                </a>
-            </article>
-        </section>
-        <h1 class="tituloPpal">Y vos.. ¿ya probaste nuestros productos?</h1>
-        <section class='contenedorBox'>
-            <div class='box'>
-                <i class="fas fa-truck"></i>
-                <p> Consultá por nuestros métodos de envios.</p>
-            </div>
-            <div class='box'>
-                <i class="fas fa-dollar-sign"></i>
-                <p> Costos de envio por zona.</p>
-            </div>
-            <div class='box'>
-                <i class="fas fa-credit-card"></i>
-                <p>Formas de pago.</p>
-            </div>
-            <div class='box'>
-                <i class="fas fa-question-circle"></i>
-                <p>Preguntas frecuentes.</p>
-            </div>
-        </section>
-    </main>
+                </section>
+                <h1 class='titulo'>Aceite de oliva, aceitunas y aceto.</h1>
+                <Section class='productosDestacados'>
 
-    <%- include('./partials/footerIndex') %>
+                    <div class="producto">
+                        <h2 class='subtitulo'>Destacados del mes:</h2>
+                        <br />
 
-</body>
+                        <% for(let producto of productos) { %>
+                            <h4><a href="/detalle/<%= producto.id %>">
+                                    <%= producto.nombre %>
+                                </a></h4>
+                            <p>
+                                <%= producto.descripcion %> $ <%= producto.precio %>
+                            </p>
+                            <br />
+                            <% } %>
+
+                    </div>
+
+                </Section>
+                <br>
+                <h2 class='titulo'> APROVECHA NUESTROS DESCUENTOS!!</h2>
+                <h3 class='subtitulo'> Que no falte en tu mesa. </h3>
+                <section class='productosPromo'>
+                    <article class="producto">
+                        <a href="/libanti1lt">
+                            <img src='/images/productos/libanti1lt.jpg' class='imagen'>
+                            <div class='infoProducto'>
+                                <i class="fas fa-cart-plus"></i>
+                                <section class='infoPrecio'>
+                                    <p class='precio'> $900 </p>
+                                    <p class='promocion'> 15% Off </p>
+                                </section>
+                                <section class='descripcion'>
+                                    <h3> Libanti - 1Lt. </h3>
+                                </section>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="producto">
+                        <a href='/libanti5lt'>
+                            <img src='/images/productos/libanti5lt.jpg' class='imagen'>
+                            <div class='infoProducto'>
+                                <i class="fas fa-cart-plus"></i>
+                                <section class='infoPrecio'>
+                                    <p class='precio'> $4.150 </p>
+                                    <p class='promocion'> 10% Off </p>
+                                </section>
+                                <section class='descripcion'>
+                                    <h3> Libanti - 5Lt. </h3>
+                                </section>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="producto">
+                        <a href='/elia3lt'>
+                            <img src='/images/productos/elia3lt.jpg' class='imagen'>
+                            <div class='infoProducto'>
+                                <i class="fas fa-cart-plus"></i>
+                                <section class='infoPrecio'>
+                                    <p class='precio'> $3.000 </p>
+                                    <p class='promocion'> 10% Off </p>
+                                </section>
+                                <section class='descripcion'>
+                                    <h3> Eliá - 3Lt. </h3>
+                                </section>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="producto">
+                        <a href='/elia5lt'>
+                            <img src='/images/productos/elia5lt.jpg' class='imagen'>
+                            <div class='infoProducto'>
+                                <i class="fas fa-cart-plus"></i>
+                                <section class='infoPrecio'>
+                                    <p class='precio'> $4.900 </p>
+                                    <p class='promocion'> 10% Off </p>
+                                </section>
+                                <section class='descripcion'>
+                                    <h3> Eliá - 5Lt. </h3>
+                                </section>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="producto">
+                        <a href='/libanti3Lt'>
+                            <img src='/images/productos/libanti3lt.jpeg' class='imagen'>
+                            <div class='infoProducto'>
+                                <i class="fas fa-cart-plus"></i>
+                                <section class='infoPrecio'>
+                                    <p class='precio'> $2.600 </p>
+                                    <p class='promocion'> 15% Off </p>
+                                </section>
+                                <section class='descripcion'>
+                                    <h3> Libanti - 3Lt. </h3>
+                                </section>
+                            </div>
+                        </a>
+                    </article>
+                </section>
+                <h1 class="tituloPpal">Y vos.. ¿ya probaste nuestros productos?</h1>
+                <section class='contenedorBox'>
+                    <div class='box'>
+                        <i class="fas fa-truck"></i>
+                        <p> Consultá por nuestros métodos de envios.</p>
+                    </div>
+                    <div class='box'>
+                        <i class="fas fa-dollar-sign"></i>
+                        <p> Costos de envio por zona.</p>
+                    </div>
+                    <div class='box'>
+                        <i class="fas fa-credit-card"></i>
+                        <p>Formas de pago.</p>
+                    </div>
+                    <div class='box'>
+                        <i class="fas fa-question-circle"></i>
+                        <p>Preguntas frecuentes.</p>
+                    </div>
+                </section>
+            </main>
+
+            <%- include('./partials/footerIndex') %>
+
+    </body>
 
 </html>

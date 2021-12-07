@@ -1,7 +1,11 @@
 const path = require('path');
+const productos = require ('../productos');
+
 const controller = {
  home : (req, res) => {
-     res.render('index');
+     res.render('index', {
+        productos: productos, 
+      });
  },
  register : (req, res) => {
      res.render('register');

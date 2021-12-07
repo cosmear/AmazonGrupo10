@@ -1,10 +1,10 @@
 const path = require("path");
 const controller = {    
     aceitunasgriegas : (req, res) => {
-        res.render('aceitunasnegras');
+        res.render('aceitunasNegras');
     },
     aceitunasverdes : (req, res) => {
-        res.render('aceitunasverdes');
+        res.render('aceitunasVerdes');
     },
     elia5lt : (req, res) => {
         res.render('elia5lt');

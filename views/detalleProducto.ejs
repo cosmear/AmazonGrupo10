@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('./partials/head') %>
+
+    <body>
+        <%- include('./partials/headerIndex') %>
+
+        <main>
+            <div class='infoProducto'>
+
+                    <% if(producto.length > 0) { %>
+                      <h1 class="ps-center"><%= producto[0].nombre %></h1>
+                      <br />
+                        <% if(producto[0].descripcion.length > 0) { %>
+                          <h4><%= producto[0].descripcion %></h4>
+                        <% } else { %>
+                          <h4>Producto típico</h4>
+                        <% } %>
+                      <p >
+                        $ <%= producto[0].precio %>
+                      </p>
+                    <%} else { %>
+                      <h1>No existe el producto con el id especificado</h1>
+                    <% } %>
+
+            </div>
+        </main>
+
+        <%- include('./partials/footer') %>
+    </body>
+
+</html>
