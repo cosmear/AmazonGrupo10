@@ -20,17 +20,18 @@ Atrasarnos en los sprints
 
 1- Armar una lista con las tareas pendientes para la finalización y cumplimiento del sprint 3.
 sprint 2, terminar el carrito. (segun trello)
-sprint 3, falta completo
+sprint 3, terminarlo
+sprint 4 todo
 
 2- Sobre la lista armada de tareas pendientes, analizar e identificar si hay dependencias entres dichas tareas.
 -
 3- Priorizar que tareas deben si o si terminarse, para ello pueden utilizar una escada del 1 al 5, siendo el 1 la de mayor prioridad.
 1) terminar URGENTE el sprint 2
-2) todo sprint 3
-
+2)  sprint 3
 4- Estimar las tareas identificadas, sin importar si se realizarán o no en la clase.
-aprox 1 semana.
+aprox 1 semana. 1 semana mas y el sprint  cerrarlo (con el minimo diseño)
+5- sprin 4 
 
 5- Seleccionar una o más tareas, según la estimación anterior, para poder realizarla durante la clase."
 terminar sprin 2.
-modificar las rutas
+terminar sprint 3
